@@ -6,7 +6,7 @@ public class AvatarCreator : MonoBehaviour
 {
     [SerializeField]private WebView _webView;
 
-    public GameObject _avatar;
+    private GameObject _avatar;
     private string _url;
 
     public GameObject Avatar
